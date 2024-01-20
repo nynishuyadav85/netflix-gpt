@@ -43,7 +43,7 @@ const Header = () => {
         <div className="flex p-2">
           <img className="w-8 h-8" src={USER_AVATAR} alt="usericon" />
           <button
-            className="bg-red-700 p-4 m-4 rounded-sm size-15 text-white font-bold"
+            className="bg-red-700 p-4 m-4 rounded-sm size-15 text-white font-bold font-mono"
             onClick={handleCLick}
           >
             Sign out
