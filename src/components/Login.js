@@ -9,7 +9,7 @@ import {
 import { auth } from "./firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import { USER_AVATAR } from "./constants";
+import { USER_AVATAR } from "../utils/constants";
 
 const Login = () => {
   const email = useRef(null);
@@ -74,7 +74,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          console.log(user);
+          // console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;

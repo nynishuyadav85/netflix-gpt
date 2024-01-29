@@ -4,7 +4,7 @@ import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "./firebase";
 import { useDispatch, useSelector } from "react-redux";
 import { addUser, removeUser } from "../utils/userSlice";
-import { LOGO, USER_AVATAR } from "./constants";
+import { LOGO, USER_AVATAR } from "../utils/constants";
 
 const Header = () => {
   const dispatch = useDispatch();
